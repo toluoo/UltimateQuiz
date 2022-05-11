@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name = "viewport" content = "width=devide-width, initial-scale = 1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie = edge"/>
+        <link rel = "stylesheet" href = "main.css">
+        <link rel = "stylesheet" href = "game.css">
+        <title>General Trivia - Play</title>
+        <body>
+            <div class = "container">
+                <div id = "game"class = "flex-center flex-column">
+                    <div id = "stats" >
+                        <div id = "stat-item">
+                            <h3 class = "stat-pref" style = "padding-right: 4px; color: white;">
+                                Question  
+                            </h3>
+                            <h3 class = "stat-main-text" id = "questionCounter" style = "color: white;">
+                                
+                            </h3>
+                        </div>
+                        <img src="logo.png" alt="Italian Trulli" width = "470" height="350" style="left:20px;">
+                        <div id = "stat-item">
+                            <h3 class = "stat-pref" style = "padding-right: 4px ; color: white;" >
+                                Score
+                            </h3>
+                            <h3 class = "stat-main-text" id = "score" style="color: white;">
+                                0
+                            </h3>
+                        </div>
+                    </div>
+                    <h2 id = "question" style="color: white; font-size: 2rem;">"q goes here"</h2>
+                    <div class = "flex-row">
+                        <div class = "choices">
+                            <div class = "choice-contain" style="background-color: #CD8987;" >
+                                
+                                <p class = "choice-text" data-number = "1">Answer to the question</p>
+                            </div>
+                            <div class = "choice-contain" style="background-color: #7192BE;">
+                                
+                                <p class = "choice-text" data-number = "3">Answer</p>
+                            </div>
+                        </div>
+                        <div class = "choices">
+                            <div class = "choice-contain" style="background-color: #61988E;">
+                                
+                                <p class = "choice-text" data-number = "2">Answer</p>
+                            </div>
+                            <div class = "choice-contain" style="background-color: #8C7AA9;">
+                                
+                                <p class = "choice-text" data-number = "4">Answer</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+            </div>
+            <script src = "game.js"></script>
+        </body>
+    </head>
