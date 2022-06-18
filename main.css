@@ -1,8 +1,29 @@
 
 :root {
-    background-color: #022928;
+   
+    background: linear-gradient(-45deg, #1c5c95, #2ADFC1, #F39C6B, #D1236C);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(start.ttf);
 }
 h1 {
+    font-family: myFirstFont;
+    color: darkgreen;
     font-size: 100px;
     color: #4BA3C3;
     -webkit-text-stroke: 1.5px black;
@@ -49,12 +70,13 @@ h1 {
     font-size: 2rem;
     font-weight: bold;
     padding: 1rem;
-    background-color: #fbe0e2;
+    
     width: 14rem;
     text-align: center;
     text-decoration: none;
-    border: 4px solid #ec6f79;
-    color: #e95864;
+    border: 4px solid #d0d0d0;
+    border-radius: 5px;
+    color: #ffffff;
     
 }
 
